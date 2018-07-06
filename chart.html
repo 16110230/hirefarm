@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>How to Work</title>
+	<title>My Chart</title>
 	<link href="img/haflogo1.png" rel="shortcut icon">
 	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
@@ -173,6 +173,7 @@
 						<li><a href="location.html">Location</a></li>
 						<li><a href="about.html">About Us</a></li>
 						<li><a href="contact.html">Contact Us</a></li>
+
 					</ul>
 				</div>
 				<!-- /category nav -->
@@ -208,7 +209,7 @@
 		<div class="container">
 			<ul class="breadcrumb">
 				<li><a href="#">Home</a></li>
-				<li class="active">FAQ</li>
+				<li class="active">My Chart</li>
 			</ul>
 		</div>
 	</div>
@@ -218,61 +219,99 @@
 	<div class="section">
 		<!-- container -->
 		<div class="container">
-        <div class="row">
-        	<div class="aside">
-        	<div class="shiping-methods">
+			<!-- row -->
+			<div class="row">
+					<div class="col-md-12">
+						<div class="order-summary clearfix">
 							<div class="section-title">
-								<h4 class="title">Frequently Asking Question</h4>
+								<h3 class="title">Order Review</h3>
 							</div>
-							<div class="input-checkbox">
-								<input type="radio" name="shipping" id="shipping-1" checked>
-								<label for="shipping-1">Who we are ?</label>
-								<div class="caption">
-									<p>Aswer<p>
-								</div>
-							</div>
-							<div class="input-checkbox">
-								<input type="radio" name="shipping" id="shipping-2">
-								<label for="shipping-2">Quetion</label>
-								<div class="caption">
-									<p>Answer<p>
-								</div>
-								<div class="input-checkbox">
-								<input type="radio" name="shipping" id="shipping-2">
-								<label for="shipping-2">Quetion</label>
-								<div class="caption">
-									<p>Answer<p>
-								</div>
-							</div>
-							<div class="input-checkbox">
-								<input type="radio" name="shipping" id="shipping-2">
-								<label for="shipping-2">Quetion</label>
-								<div class="caption">
-									<p>Answer<p>
-								</div>
-								<div class="input-checkbox">
-								<input type="radio" name="shipping" id="shipping-2">
-								<label for="shipping-2">Quetion</label>
-								<div class="caption">
-									<p>Answer<p>
-								</div>
-							</div>
-							<div class="input-checkbox">
-								<input type="radio" name="shipping" id="shipping-2">
-								<label for="shipping-2">Quetion</label>
-								<div class="caption">
-									<p>Answer<p>
-								</div>
+							<table class="shopping-cart-table table">
+								<thead>
+									<tr>
+										<th>Product</th>
+										<th></th>
+										<th class="text-center">Price</th>
+										<th class="text-center">Quantity</th>
+										<th class="text-center">Total</th>
+										<th class="text-right"></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="thumb"><img src="./img/sawi1.png" alt=""></td>
+										<td class="details">
+											<a href="#">Sawi Per Ons</a>
+										</td>
+										<td class="price text-center"><strong>$1.50</strong></td>
+										<td class="qty text-center"><input class="input" type="number" value="1"></td>
+										<td class="total text-center"><strong class="primary-color">$15</strong></td>
+										<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+									</tr>
+									<tr>
+										<td class="thumb"><img src="./img/sayur asem.png" alt=""></td>
+										<td class="details">
+											<a href="#">Asem Vegetable Package</a>
+										</td>
+										<td class="price text-center"><strong>$4.50</strong></td>
+										<td class="qty text-center"><input class="input" type="number" value="1"></td>
+										<td class="total text-center"><strong class="primary-color">$45</strong></td>
+										<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+									</tr>
+									<tr>
+										<td class="thumb"><img src="./img/gado gado.png" alt=""></td>
+										<td class="details">
+											<a href="#">Gado Gado Vegetable Package</a>
+										</td>
+										<td class="price text-center"><strong>$4.50</strong></td>
+										<td class="qty text-center"><input class="input" type="number" value="1"></td>
+										<td class="total text-center"><strong class="primary-color">$45</strong></td>
+										<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+									</tr>
+									<tr>
+										<td class="thumb"><img src="./img/sayur tauge.png" alt=""></td>
+										<td class="details">
+											<a href="#">Tauge Vegetable Package</a>
+										</td>
+										<td class="price text-center"><strong>$4.50</strong></td>
+										<td class="qty text-center"><input class="input" type="number" value="1"></td>
+										<td class="total text-center"><strong class="primary-color">$45</strong></td>
+										<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+									</tr>
+									<tr>
+										<td class="thumb"><img src="./img/cabai.png" alt=""></td>
+										<td class="details">
+											<a href="#">Chili Per Ons</a>
+										</td>
+										<td class="price text-center"><strong>$4.50</strong></td>
+										<td class="qty text-center"><input class="input" type="number" value="1"></td>
+										<td class="total text-center"><strong class="primary-color">$45</strong></td>
+										<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<th class="empty" colspan="3"></th>
+										<th>TOTAL</th>
+										<th colspan="2" class="total">$195.00</th>
+									</tr>
+								</tfoot>
+							</table>
+							<div class="pull-right">
+								<a href="checkout.html"> <button class="primary-btn">Place Oerder</button></a>a
 							</div>
 						</div>
-							</div>
-						</div>
+
+					</div>
+				</form>
+			</div>
+			<!-- /row -->
 		</div>
 		<!-- /container -->
 	</div>
-</div>
 	<!-- /section -->
-	<!-- FOOTER -->
+
+		<!-- FOOTER -->
 	<footer id="footer" class="section section-grey">
 		<!-- container -->
 		<div class="container">
@@ -360,6 +399,7 @@
 		<!-- /container -->
 	</footer>
 	<!-- /FOOTER -->
+
 	<!-- jQuery Plugins -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
